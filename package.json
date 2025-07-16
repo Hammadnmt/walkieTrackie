@@ -4,9 +4,17 @@
   "description": "This allows users to share live location and chat real time",
   "license": "MIT",
   "author": "Hammad",
-  "type": "module",
+  "type": "commonjs",
   "main": "server",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
