@@ -15,7 +15,7 @@ export function useLiveLocation(callback) {
       },
       {
         enableHighAccuracy: true,
-        maximumAge: 1000,
+        maximumAge: 0,
         timeout: 5000,
       }
     );
